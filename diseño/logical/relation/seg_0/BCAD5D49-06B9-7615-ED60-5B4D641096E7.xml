@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Med_cita" directorySegmentName="seg_0" id="BCAD5D49-06B9-7615-ED60-5B4D641096E7">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:31:34 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<sourcePk>0EFB6621-22A5-22C0-439F-C30A4E79EF49</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92476900-437D-D715-7FF1-8905DEFE8248</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4EFCD050-C8A4-A928-227F-A39A038EA270</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

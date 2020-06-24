@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7BCF126-A7DA-1EF5-3569-743D8891A300" name="Triaje">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>69B9AF18-21BE-6478-FE0C-5E21BF5877C4</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tri_idTriaje" id="BFBDAA92-1AEB-2711-0BA3-5BE4822B87DC">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>C8BB61D6-CF02-6A17-4CC6-3E623F942855</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Enfermera_enf_idEnfermera" id="DF452465-E1E2-D20A-0B44-728EE35D7209">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>9D5A98E0-E359-9D82-0998-20FD0AF52647</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="270E8610-730A-B314-6C18-B42AE5C5C02F" referredColumn="3046D43E-49FF-F6BC-3C7D-97554BE06E17"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29E6C3E9-C3A5-117B-0515-F8D6324E3A1D" name="Triaje_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>426A7881-8D2D-0E19-9063-E8689B2023BB</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFBDAA92-1AEB-2711-0BA3-5BE4822B87DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47ECB9B7-6B8C-85EA-229A-8172B774012B" name="Triaje_Enfermera_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>C900292B-B7F7-5EE2-E0AB-DE43D7B58A6F</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF452465-E1E2-D20A-0B44-728EE35D7209"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

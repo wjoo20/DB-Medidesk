@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7332CB7-415C-5E1A-BE5C-79A3E014BC62" name="Transaccion_Receta">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>990CBFDB-F7E7-8E0B-286A-8407E2C4F796</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tr_idTransaccion" id="1C1F9E56-BB09-3BCA-AD33-03D2E45B627F">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>8FE863B6-A142-4A54-3D2F-FD72743CB25C</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Receta_rec_idReceta" id="2CF65C61-E369-19F6-08A3-5E0C6F92215F">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>F796AF5A-CD74-7444-4B5B-FE5675A6D744</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F5DF1B2-87F4-4EB9-D464-F4F3AFCE7C9B" referredColumn="F3D05EB5-7C60-1F78-A8E2-439380476478"/>
+</associations>
+</Column>
+<Column name="Farmaceutico_farm_idFarmaceutico" id="201F9B7A-F646-E0C2-0DB8-51726B6BBF30">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>3B5EC122-BE89-7F57-55EB-BF355BE64A03</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F9FCC0C-3584-5BF1-4CCD-26B115217BEE" referredColumn="C881B01B-61EB-52DA-940A-6C9F7BD01201"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3FF8BB7-82CA-F6C3-685E-5846A05A35CC" name="Transaccion_Receta_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>952326FD-75DC-69D4-AE71-C545033B0FD5</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C1F9E56-BB09-3BCA-AD33-03D2E45B627F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA44D7F4-EBBA-8BF4-22B7-AB1BC37E7C51" name="Transaccion_Receta__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C65029F6-EF70-6900-AF33-C94CB19C424E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2CF65C61-E369-19F6-08A3-5E0C6F92215F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AD3F983-06C4-B068-1371-F0FA7260E7E4" name="Transaccion_Receta_Farmaceutico_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>7700D87B-268E-CEFD-3211-3FAD933A9ED4</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="201F9B7A-F646-E0C2-0DB8-51726B6BBF30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D1E0E11-012C-9C9E-29CC-6CCD5472A912" name="Transaccion_Receta_Receta_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>C65029F6-EF70-6900-AF33-C94CB19C424E</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CF65C61-E369-19F6-08A3-5E0C6F92215F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

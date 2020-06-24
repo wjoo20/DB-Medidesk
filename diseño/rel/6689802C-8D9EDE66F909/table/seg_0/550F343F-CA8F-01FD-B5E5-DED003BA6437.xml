@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="550F343F-CA8F-01FD-B5E5-DED003BA6437" name="Cita">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>4EFCD050-C8A4-A928-227F-A39A038EA270</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cita_idCita" id="95DB176A-C2E0-BF04-7B60-9F47A39FD833">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>CB466EC8-E281-21B9-549F-8285B7EA4F5F</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cita_tipo" id="79353DB4-A70F-4D4D-361D-9EA35CB91F40">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>A243CCF6-B9C2-AB0E-9D31-FDBDC6F9867D</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cita_estado" id="5BC54BA0-46BB-A40B-BB69-3701B57E133E">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>4E735086-27E4-5756-1B80-712D465F6EAF</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cita_fecha" id="F6B7A52B-DC6E-5296-2954-7F789A562DB3">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>068B30FE-D1DE-F705-3607-7B3262FF34D1</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Medico_med_idMedico" id="5F26E749-0B04-F651-3B89-1AD8686BD582">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>E8A30917-7619-ED82-0140-F9BF0A013CCC</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B96CACC-0FBE-4E64-C34F-8598E5EAEE22" referredColumn="9A250655-F050-7C7F-99FA-E3366931A2F7"/>
+</associations>
+</Column>
+<Column name="Triaje_tri_idTriaje" id="5404B2F3-CDAD-3CE6-632A-274CB58A93CE">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>0E0EF4E7-94A9-857F-4ED2-1431159A3135</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1880CBB-55E5-9B4E-2556-44B039657810" referredColumn="BFBDAA92-1AEB-2711-0BA3-5BE4822B87DC"/>
+</associations>
+</Column>
+<Column name="Paciente_pac_dni" id="23487628-2C02-ACB8-2073-8B2341ED5A39">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>FFB3EB60-98D5-16E4-EDD3-93F03ECFADBE</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="047D3F75-08ED-D0E5-BA79-4C31981033EF" referredColumn="16463BE3-BB8D-49A3-7FEC-2A44E615E5EC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E4B515D-8E50-B8C2-9D41-2594CB3A366D" name="Cita_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>637ABFF4-540B-7F6E-625E-F4B4B356C17C</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95DB176A-C2E0-BF04-7B60-9F47A39FD833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AA38AC3-E7A5-1B1D-A570-6E20A52CD815" name="Cita_Medico_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>BCAD5D49-06B9-7615-ED60-5B4D641096E7</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F26E749-0B04-F651-3B89-1AD8686BD582"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31806E02-73F5-13BA-16C2-5B7691BBC1D4" name="Cita_Paciente_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>C50138DE-5200-36F7-4AE4-B4F72F804710</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23487628-2C02-ACB8-2073-8B2341ED5A39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F784C11-7F59-F991-D3C9-C5B6B4E69D57" name="Cita_Triaje_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:34:39 UTC</createdTime>
+<generatorID>1AFD9799-320A-1E38-22A6-216E1D878D2B</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5404B2F3-CDAD-3CE6-632A-274CB58A93CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

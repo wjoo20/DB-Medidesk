@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hist_pac" directorySegmentName="seg_0" id="A25C571A-51F4-960A-1836-A97CCA77C3EA">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 00:57:41 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<sourcePk>E7663E02-7350-BD84-E788-418B42F66741</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CEA8AD53-AE65-BFAB-C2CC-E50F353623C1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4A86C86E-7ED2-B322-988A-2BD6A8122B76</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="990CBFDB-F7E7-8E0B-286A-8407E2C4F796" name="Transaccion_Receta">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-23 19:22:21 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tr_idTransaccion" id="8FE863B6-A142-4A54-3D2F-FD72743CB25C">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-23 19:22:50 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rec_idReceta" id="F796AF5A-CD74-7444-4B5B-FE5675A6D744">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:04:51 UTC</createdTime>
+<generatorID>C65029F6-EF70-6900-AF33-C94CB19C424E</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<referedAttribute>B8FD8F57-B1B9-2581-FE2F-DAA3C9E5E451</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="farm_idFarmaceutico" id="3B5EC122-BE89-7F57-55EB-BF355BE64A03">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:32:57 UTC</createdTime>
+<generatorID>7700D87B-268E-CEFD-3211-3FAD933A9ED4</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<referedAttribute>BC9980E9-B84A-3454-B5CE-6322EC4EBB27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="952326FD-75DC-69D4-AE71-C545033B0FD5" name="Transaccion_Receta PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-23 19:24:39 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FE863B6-A142-4A54-3D2F-FD72743CB25C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
