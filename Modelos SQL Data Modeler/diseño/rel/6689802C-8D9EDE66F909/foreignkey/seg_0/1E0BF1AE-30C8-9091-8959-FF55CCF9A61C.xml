@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E0BF1AE-30C8-9091-8959-FF55CCF9A61C" containerWithKeyObject="5734E0A9-B647-8796-8CB1-BA4D8C0FE7AB" localFKIndex="57777455-7D6A-1843-9DD0-B46C43D86A9A" name="Historia_patologia_Patologia_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>B94E6EB0-0508-8E11-E71F-6474E88DB5C6</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<referredTableLongName>Patologia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>299245C8-243C-B59C-D7C7-E63C5447F808</referredTableID>
+<keyObject>DF014254-FAAF-9D65-8C8F-E8A89A995551</keyObject>
+<referredKeyID>DF014254-FAAF-9D65-8C8F-E8A89A995551</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pat_idPatologia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

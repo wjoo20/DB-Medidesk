@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F66F6E4-ACDF-87A4-305A-E6397758428A" name="Historia">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>CEA8AD53-AE65-BFAB-C2CC-E50F353623C1</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hist_idHistoria" id="D6F0818C-632F-A587-77BC-4D8F4F28A14D">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>48F4BC40-27D7-3269-B6BC-D3BE697A0109</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hist_fechaApertura" id="C51AB611-AFD0-11C7-5882-0E51E2CB5ABA">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>2179D0D2-6077-22C4-99C4-EEEFFC4C4520</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paciente_pac_dni" id="EA35B885-E358-F6D8-D623-A0FBC2265A62">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>EC372DFD-74DB-62F4-9005-537499BAD829</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B404E95-671E-2241-B326-1AF6AA72D7F9" referredColumn="33B6FF98-8EF5-F37F-676D-194B365BC310"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97CC6DC6-8AD5-535A-2769-066E141EF16D" name="Historia_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>E7663E02-7350-BD84-E788-418B42F66741</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6F0818C-632F-A587-77BC-4D8F4F28A14D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2848270-92A2-7D90-C933-99F6CD964012" name="Historia__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4D01B596-098B-AF63-5544-31E51A0A9E05</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EA35B885-E358-F6D8-D623-A0FBC2265A62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27C81E7A-0355-76BE-7163-DBD92C1DF98A" name="Historia_Paciente_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>4D01B596-098B-AF63-5544-31E51A0A9E05</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA35B885-E358-F6D8-D623-A0FBC2265A62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

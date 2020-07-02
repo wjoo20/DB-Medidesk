@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FECEAF07-68B6-1624-797C-2AA7674A91BB" name="Rec_me">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Receta_rec_idReceta" id="5C3106B0-C09E-72C9-3D1D-867092F7F817">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BD604FE-8FC1-E1BA-AFD1-894969AC2DD0" referredColumn="41A0065F-5636-34D8-6A2F-E483B94C47C4"/>
+</associations>
+</Column>
+<Column name="Medicamento_me_idMedicamento" id="9B293D57-5A0C-C6E8-0B98-EB029FD88D84">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="510787FE-40F0-697B-74DD-EC8D0A8E085C" referredColumn="14692A7E-46CE-301F-1537-E3864C73C70B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D26D8D1-6627-21AF-0BC5-1CB2EB0CDFEE" name="Rec_me_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C3106B0-C09E-72C9-3D1D-867092F7F817"/>
+<colUsage columnID="9B293D57-5A0C-C6E8-0B98-EB029FD88D84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="091322B7-64BA-ADFC-4F6F-5AF552C68765" name="Rec_me_Receta_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>1E7F28DC-464A-9597-FF22-5102757CB463</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C3106B0-C09E-72C9-3D1D-867092F7F817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52BB68FD-D115-C6E3-327E-21CD871A2F52" name="Rec_me_Medicamento_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>1E7F28DC-464A-9597-FF22-5102757CB463</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B293D57-5A0C-C6E8-0B98-EB029FD88D84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

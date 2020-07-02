@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D0FE368-995E-AC7D-CBB4-4EFB9FD69347" name="Receta">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>2B27D11D-75C7-0D12-1C5B-EB60AA394AA7</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rec_idReceta" id="41A0065F-5636-34D8-6A2F-E483B94C47C4">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>B8FD8F57-B1B9-2581-FE2F-DAA3C9E5E451</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rec_indicaciones" id="531DFAF9-B664-9257-A4D9-65844CF2D328">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>E4AA988B-CD43-4F7F-591F-8AC33218248A</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cita_cita_idCita" id="EA379B62-B071-1E49-175D-C2A5BA759DC2">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>C40C6D27-E5E0-7493-1ED2-9F17C0F1688B</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94CC93D5-F814-382E-A328-6324225B7FBE" referredColumn="C43DEB96-F794-D699-218A-30990C5BAF23"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A35C81D-2236-3AB8-AD86-9D2A3E0F23CD" name="Receta_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>340329D1-892C-5808-80A3-612AB004FE98</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41A0065F-5636-34D8-6A2F-E483B94C47C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="336C7E56-BD3B-5B2B-390A-208807FFD204" name="Receta__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6ABC7813-4A0F-6A6B-A9BF-D482A7F171ED</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EA379B62-B071-1E49-175D-C2A5BA759DC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81CBDE95-4324-5576-0EA5-AD7FC06DFF47" name="Receta_Cita_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>6ABC7813-4A0F-6A6B-A9BF-D482A7F171ED</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA379B62-B071-1E49-175D-C2A5BA759DC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

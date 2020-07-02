@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2BF0A82F-AC3A-DFE1-4C0F-444A483F2292" containerWithKeyObject="B28F06BA-ACD1-352B-EDFD-C9719FBB3402" localFKIndex="AF47099F-C23A-69DA-D513-F454FDD79649" name="Triaje_Enfermera_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>C900292B-B7F7-5EE2-E0AB-DE43D7B58A6F</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<referredTableLongName>Enfermera</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65E0F6F9-491E-A541-8DF3-C2EBF320A52B</referredTableID>
+<keyObject>B0EE0B47-9F85-0849-8881-2DC26C27BFB3</keyObject>
+<referredKeyID>B0EE0B47-9F85-0849-8881-2DC26C27BFB3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>enf_idEnfermera</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

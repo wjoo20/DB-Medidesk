@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EFCD050-C8A4-A928-227F-A39A038EA270" name="Cita">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-22 15:51:22 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cita_idCita" id="CB466EC8-E281-21B9-549F-8285B7EA4F5F">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-22 15:52:25 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cita_tipo" id="A243CCF6-B9C2-AB0E-9D31-FDBDC6F9867D">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-22 15:54:06 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cita_estado" id="4E735086-27E4-5756-1B80-712D465F6EAF">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-22 15:54:28 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cita_fecha" id="068B30FE-D1DE-F705-3607-7B3262FF34D1">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-22 15:55:03 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="med_idMedico" id="E8A30917-7619-ED82-0140-F9BF0A013CCC">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:31:34 UTC</createdTime>
+<generatorID>BCAD5D49-06B9-7615-ED60-5B4D641096E7</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<referedAttribute>2BBF6374-4770-C230-8D7A-84EDDCC21384</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tri_idTriaje" id="0E0EF4E7-94A9-857F-4ED2-1431159A3135">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:31:55 UTC</createdTime>
+<generatorID>1AFD9799-320A-1E38-22A6-216E1D878D2B</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<referedAttribute>C8BB61D6-CF02-6A17-4CC6-3E623F942855</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pac_dni" id="FFB3EB60-98D5-16E4-EDD3-93F03ECFADBE">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-24 01:32:35 UTC</createdTime>
+<generatorID>C50138DE-5200-36F7-4AE4-B4F72F804710</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<referedAttribute>2C1BBD69-3438-6ABD-CBFF-E6DF47852FAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="637ABFF4-540B-7F6E-625E-F4B4B356C17C" name="Cita PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-22 15:53:58 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="6689802C-6787-079E-A1EF-8D9EDE66F909" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB466EC8-E281-21B9-549F-8285B7EA4F5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

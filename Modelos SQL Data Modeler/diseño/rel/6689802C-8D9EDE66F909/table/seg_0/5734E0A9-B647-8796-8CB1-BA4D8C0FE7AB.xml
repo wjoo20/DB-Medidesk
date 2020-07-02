@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5734E0A9-B647-8796-8CB1-BA4D8C0FE7AB" name="Historia_patologia">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Historia_hist_idHistoria" id="E7E58A7F-4CE9-FECE-BFE2-9B4099477840">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B935C91E-6C51-5201-E108-ACD6D24CC523" referredColumn="D6F0818C-632F-A587-77BC-4D8F4F28A14D"/>
+</associations>
+</Column>
+<Column name="Patologia_pat_idPatologia" id="81F868CC-B056-422C-8CC4-349C1791F843">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E0BF1AE-30C8-9091-8959-FF55CCF9A61C" referredColumn="07E31340-EB0C-BF3B-6008-23905D31A004"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7991CE72-6358-AE38-5A90-69915848574A" name="Historia_patologia_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7E58A7F-4CE9-FECE-BFE2-9B4099477840"/>
+<colUsage columnID="81F868CC-B056-422C-8CC4-349C1791F843"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AECBE39-A22C-44B4-EAED-7BCB5AABBDE3" name="Historia_patologia_Historia_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>B94E6EB0-0508-8E11-E71F-6474E88DB5C6</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7E58A7F-4CE9-FECE-BFE2-9B4099477840"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57777455-7D6A-1843-9DD0-B46C43D86A9A" name="Historia_patologia_Patologia_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-06-30 00:44:38 UTC</createdTime>
+<generatorID>B94E6EB0-0508-8E11-E71F-6474E88DB5C6</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81F868CC-B056-422C-8CC4-349C1791F843"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

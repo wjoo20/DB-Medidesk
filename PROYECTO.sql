@@ -70,18 +70,25 @@ ALTER TABLE farmaceutico ADD CONSTRAINT farmaceutico_pk PRIMARY KEY ( farm_idfar
 
 CREATE TABLE historia (
     hist_idhistoria      NUMBER(10) NOT NULL,
-    hist_fechaapertura   DATE NOT NULL
+    hist_fechaapertura   DATE NOT NULL,
+    paciente_pac_dni     NUMBER(8) NOT NULL
 );
+
+CREATE UNIQUE INDEX historia__idx ON
+    historia (paciente_pac_dni ASC );
 
 ALTER TABLE historia ADD CONSTRAINT historia_pk PRIMARY KEY ( hist_idhistoria );
 
 CREATE TABLE historia_patologia (
     historia_hist_idhistoria    NUMBER(10) NOT NULL,
-    patologia_pat_idpatologia   NUMBER(10) NOT NULL
+    patologia_pat_idpatologia   NUMBER(10) NOT NULL,
+    cita_cita_idcita            NUMBER(10) NOT NULL
 );
 
 ALTER TABLE historia_patologia ADD CONSTRAINT historia_patologia_pk PRIMARY KEY ( historia_hist_idhistoria,
                                                                                   patologia_pat_idpatologia );
+                                                                                  
+ALTER TABLE historia_patologia ADD CONSTRAINT hist_pat_cita_fk FOREIGN KEY ( cita_cita_idcita ) REFERENCES cita ( cita_idcita );
 
 CREATE TABLE medicamento (
     me_idmedicamento   NUMBER(10) NOT NULL,
@@ -123,15 +130,9 @@ CREATE TABLE paciente (
     pac_peso                            NUMBER(3, 2),
     pac_temperatura                     NUMBER(2, 1),
     pac_presion                         NUMBER(3, 3),
-    pac_triaje                          CHAR(1 CHAR) NOT NULL,
-    historia_hist_idhistoria            NUMBER(10) NOT NULL, 
+    pac_triaje                          CHAR(1 CHAR) NOT NULL, 
     adm_adm_idadm   NUMBER(2) NOT NULL
 );
-
-CREATE UNIQUE INDEX paciente__idx ON
-    paciente (
-        historia_hist_idhistoria
-    ASC );
 
 ALTER TABLE paciente ADD CONSTRAINT paciente_pk PRIMARY KEY ( pac_dni );
 
@@ -252,9 +253,10 @@ ALTER TABLE paciente
     ADD CONSTRAINT paciente_administrador_fk FOREIGN KEY ( adm_adm_idadm )
         REFERENCES administrador ( adm_idadministrador );
 
-ALTER TABLE paciente
-    ADD CONSTRAINT paciente_historia_fk FOREIGN KEY ( historia_hist_idhistoria )
-        REFERENCES historia ( hist_idhistoria );
+
+ALTER TABLE historia
+    ADD CONSTRAINT historia_paciente_fk FOREIGN KEY ( paciente_pac_dni )
+        REFERENCES paciente ( pac_dni );
 
 ALTER TABLE rec_me
     ADD CONSTRAINT rec_me_medicamento_fk FOREIGN KEY ( medicamento_me_idmedicamento )
@@ -283,6 +285,7 @@ ALTER TABLE transaccion_receta
 ALTER TABLE triaje
     ADD CONSTRAINT triaje_enfermera_fk FOREIGN KEY ( enfermera_enf_idenfermera )
         REFERENCES enfermera ( enf_idenfermera );
+
 
 
 
