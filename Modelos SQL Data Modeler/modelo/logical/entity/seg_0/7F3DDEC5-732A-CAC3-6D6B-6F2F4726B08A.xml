@@ -1,0 +1,244 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F3DDEC5-732A-CAC3-6D6B-6F2F4726B08A" name="PACIENTE">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>EE98E3B6-0B28-41EC-42F4-22711F93B2AD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PAC DNI" id="45B83D9A-77D1-8B12-61BB-D63B31977CBF">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>335D20A9-186D-E3F5-6036-0961CFB4712C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC NOMBRES" id="B77E4C6E-DD50-E79E-8257-B1334694AA70">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>4B56EDB6-19FD-D902-6C5A-0390841BF11A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC APELLIDOS" id="778DAEE3-185F-2C36-BC6B-6E58AAB69A78">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>A13A3A76-1D06-8136-52FF-1888E9F38DAB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC CORREO" id="7139555C-A583-872D-DC41-982195A9D67F">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>611C5815-9842-B0C4-AF8D-B81C13C652CB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC TELEFONO" id="060C9E63-0A2C-C466-2495-0F7A3F36D426">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>DFA7E34C-6C61-3602-5BD8-2056FE89F3DE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC DIRECCION" id="950AE59C-609F-1BBF-30A7-3158B63E05F2">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>DF20A4A0-9A82-38B9-5C34-0B680E5A6F2F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC GENERO" id="775A59E9-B737-CE18-C763-551D8A3CEC38">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>AB177518-9F13-2742-8694-BDE7830E0A01</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC EDAD" id="D93D3B49-5EC7-8ABD-2A02-52A5FEA2BA3A">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>0CC680E3-BA86-FC05-8D62-643442A2D32D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC TALLA" id="C9CB73DA-4906-0965-0EC7-F0AFDB550346">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>7610283C-29E1-963D-F7FF-9C707E1EAA01</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC PESO" id="2558E283-B835-DEC3-7E45-79578B96BF43">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>984C0C53-FF5C-4078-69B4-F54F6F558947</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC TEMPERATURA" id="8083FD8F-57FF-78D9-9879-65E351047341">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>184FB0BD-3E99-D25D-5F2E-2362AF50B592</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC PRESION" id="47FF8848-B61C-A3BF-07DB-2BF842041140">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>02304EE3-1A39-F367-ACD0-ED3D82ED987A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAC TRIAJE" id="40D19E3B-FC70-A00A-56AF-5062B7672155">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>F74FD4E6-7BED-A64C-416E-55E020DDB4E4</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADM ADM IDADM" id="B6D2AC4F-9D85-C9DD-A04D-E6CE7E490846">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>F9378ADC-2A9D-56D9-A4F8-041F171129D5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<referedAttribute>687F81DD-EA8D-64AA-D1A4-4090B4525A16</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C158E46-9320-9485-FDDA-46E4F8F31F19" name="PACIENTE PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>9B72C52C-26D3-FBB4-11F8-F64E5CEFF7DD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45B83D9A-77D1-8B12-61BB-D63B31977CBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

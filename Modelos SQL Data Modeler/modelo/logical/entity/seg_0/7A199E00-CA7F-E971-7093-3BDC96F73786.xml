@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A199E00-CA7F-E971-7093-3BDC96F73786" name="PATOLOGIA">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>009EDE70-4C44-9E4D-550D-B003CA618C27</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PAT IDPATOLOGIA" id="152085AD-96DB-6E5F-DA20-2E6D914903A7">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>46A54E5E-2CC1-5D97-C59E-CBAF4E4E2C3E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAT DESCRIPCION" id="DC1CD58C-9C74-A456-A620-1A9EA873C08E">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>B000DBB3-21BE-FEEC-3FDD-CEF8CB05DD2C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33083ACB-5161-DBD8-0ABF-10F61A519510" name="PATOLOGIA PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>A844F915-CF48-4E68-8ED8-2205C4215042</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>152085AD-96DB-6E5F-DA20-2E6D914903A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

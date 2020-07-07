@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C90E56A-89D2-6EC8-ABBB-51CC383B1ADD" name="CITA">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>7D879B85-288E-90AD-3C2B-5A3B54C33927</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CITA IDCITA" id="0035473A-260E-94AB-FC02-169DBF5198D6">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>5A5923A3-4EBF-510D-9A2B-0409E903C9B6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITA TIPO" id="B659A727-2B3E-F8EA-39F2-D785094FBD55">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>CA68E182-438E-D3A7-6B8D-AF7EF72F6676</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITA ESTADO" id="0F6AA43A-8478-6099-8931-82193355436D">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>DC9E74B7-C883-1D42-3447-72BE137F86DB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITA FECHA" id="A2415D54-9662-9A9C-BD2F-30BEC2BA7F65">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>0049A1CE-B2ED-2161-7025-498B021ACA59</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MEDICO MED IDMEDICO" id="9B878B78-3A3A-F741-4A82-D0DD4B185EDA">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>931607F2-C81D-0071-4213-E271C1D7D919</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<referedAttribute>6E3C1C5D-E9B6-89D5-69C1-6D6C8B9BA13F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRIAJE TRI IDTRIAJE" id="0959577E-E069-E6D7-82AF-95E46F9B64B3">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>AD4FBE56-7DA1-3219-619A-3D12680FFF95</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D3DFDA94-D2BA-3C79-26CE-C4816D01B916</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PACIENTE PAC DNI" id="01DF457C-43E3-5315-6F3B-F36A2E895EAE">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>0BE61C89-0F9C-C86A-C0C5-94674612E762</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<referedAttribute>45B83D9A-77D1-8B12-61BB-D63B31977CBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AABB0672-CFBD-E897-2F45-13C17932B622" name="CITA PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>9E76D998-E1AB-41D2-1CB8-275D5B58EAAD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0035473A-260E-94AB-FC02-169DBF5198D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

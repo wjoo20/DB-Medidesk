@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B8B32A7-B1FA-0760-04EF-9A520736FC23" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="FARMACEUTICO">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>FARMACEUTICO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FARM_IDFARMACEUTICO" id="B4005354-01F7-4B33-678E-9DEEF9EB1F65">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>FARMACEUTICO</sourceObjSchema>
+<sourceObjName>FARM_IDFARMACEUTICO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FARM_DNI" id="9D49589C-6380-8D3C-6F67-9791CCD3C965">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>FARMACEUTICO</sourceObjSchema>
+<sourceObjName>FARM_DNI</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FARM_NOMBRES" id="92065507-20EB-FECA-6602-A69A70238334">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>FARMACEUTICO</sourceObjSchema>
+<sourceObjName>FARM_NOMBRES</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FARM_APELLIDOS" id="59FFB2E1-5CAE-45E7-9C20-D7B848F7645B">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>FARMACEUTICO</sourceObjSchema>
+<sourceObjName>FARM_APELLIDOS</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FARM_GENERO" id="5828A945-402C-2037-983F-4D48EECAEFFB">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>FARMACEUTICO</sourceObjSchema>
+<sourceObjName>FARM_GENERO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FARM_EDAD" id="D262552F-5A14-9A44-7CB1-EA19EB4FC156">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>FARMACEUTICO</sourceObjSchema>
+<sourceObjName>FARM_EDAD</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_US_IDUSUARIO" id="D31ABC0A-64BF-3502-B340-73637B342793">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>FARMACEUTICO</sourceObjSchema>
+<sourceObjName>USUARIO_US_IDUSUARIO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16D8439E-86CE-2CCD-8546-8EFC910CCDD9" referredColumn="F42E49B4-EE66-D417-F8DC-A6B4D098D7FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E5C485E-591E-FDC2-7B8A-F2D315611C9F" name="FARMACEUTICO_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>FARMACEUTICO_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4005354-01F7-4B33-678E-9DEEF9EB1F65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E44C8D14-6859-7DEE-DFF0-A790458371F5" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="FARMACEUTICO__IDX">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>FARMACEUTICO__IDX</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D31ABC0A-64BF-3502-B340-73637B342793"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91D6C850-98B6-E799-2406-B9C26A1C154F" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="FARMACEUTICO_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>FARMACEUTICO_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4005354-01F7-4B33-678E-9DEEF9EB1F65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10E5D72A-FAE7-7E51-8B01-CE0269235D4D" name="FARMACEUTICO_USUARIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D31ABC0A-64BF-3502-B340-73637B342793"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

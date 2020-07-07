@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="456212E1-161F-749C-33EC-D809B5D0AED4" name="MEDICAMENTO">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>4D3BF16C-73B3-F63C-D5DE-A4696F0A8B3A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ME IDMEDICAMENTO" id="D878AEFC-61E0-3E0E-5439-6774F1251541">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>AD9EC81B-E7DE-5871-8190-6D8F3A208C2C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ME NOMBRE" id="6A544FFF-CA24-6B14-3849-FBAD3C738D7E">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>D7B1E37D-67D9-5EFB-FB05-2974F0110E70</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ME CANTIDAD" id="A429E29D-491A-6EA8-3301-97015ACCF016">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>B9C84415-AF66-FF5F-C0E3-2F7987AC7082</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32C8DDE4-4314-7DFE-9D53-C91C3749E0BA" name="MEDICAMENTO PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>FC2AD1B8-DBA0-8247-1833-29B1312E0445</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D878AEFC-61E0-3E0E-5439-6774F1251541</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REC_ME_RECETA_FK" directorySegmentName="seg_0" id="A931B92D-BB64-6BB5-0DBF-DAF8D7613303">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>B3B54376-8C9A-2121-2290-AA206567B9F1</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>E5A0668E-F5FB-E131-EDA9-D1C15FE7A266</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7522A17D-68A9-2A1D-0EC9-2C9CA5A7113B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>99B01003-A23B-BB79-DEAD-74F0D582F3EA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

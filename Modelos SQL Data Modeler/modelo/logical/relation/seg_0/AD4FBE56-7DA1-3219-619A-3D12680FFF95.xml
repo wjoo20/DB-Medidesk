@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CITA_TRIAJE_FK" directorySegmentName="seg_0" id="AD4FBE56-7DA1-3219-619A-3D12680FFF95">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>A246B79F-987C-C7B3-4B24-BB8599C83305</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>ABF2BD3F-F19B-53E5-8C8E-51846B0CFDF5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5A095B9E-5AA9-1E05-C0DC-5868ED28BBD2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C90E56A-89D2-6EC8-ABBB-51CC383B1ADD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73054327-80D7-91EF-9093-CF28FA128484" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="ADMINISTRADOR">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>ADMINISTRADOR</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADM_IDADMINISTRADOR" id="E07DBD59-CBF4-776A-6462-6C6D54972637">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>ADM_IDADMINISTRADOR</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADM_DNI" id="3E560DF0-3C70-3242-71AE-179FD6819003">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>ADM_DNI</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADM_NOMBRES" id="7F652B02-D8C2-1851-A32F-F42F41A8886F">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>ADM_NOMBRES</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADM_APELLIDOS" id="AF787A85-CFA6-3A96-B0C8-D0D86B7E4A44">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>ADM_APELLIDOS</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADM_GENERO" id="86C5776D-11E0-3B6F-1BC9-58946D9BF405">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>ADM_GENERO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADM_EDAD" id="88A133A1-06BC-775B-1714-4125CE768D08">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>ADM_EDAD</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_US_IDUSUARIO" id="5B1EB5BD-ADEC-B8FB-BD8E-5F0171F4CA53">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>USUARIO_US_IDUSUARIO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9428869A-D7E6-A1EC-DAFA-25412166C49E" referredColumn="F42E49B4-EE66-D417-F8DC-A6B4D098D7FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="416729E8-746E-F26A-E002-3641DB69E624" name="ADMINISTRADOR_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>ADMINISTRADOR_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E07DBD59-CBF4-776A-6462-6C6D54972637"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B7537E0-9E4F-F8D0-74B2-9C27F28CAD04" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="ADMINISTRADOR__IDX">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>ADMINISTRADOR__IDX</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B1EB5BD-ADEC-B8FB-BD8E-5F0171F4CA53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC96BB64-1E0B-DF2C-65A5-A82F743D5215" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="ADMINISTRADOR_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>ADMINISTRADOR_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E07DBD59-CBF4-776A-6462-6C6D54972637"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6048DAB9-A7C5-C34B-2B55-8DF6DB0EED31" name="ADMINISTRADOR_USUARIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B1EB5BD-ADEC-B8FB-BD8E-5F0171F4CA53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FARMACEUTICO" directorySegmentName="seg_0" id="9B8B32A7-B1FA-0760-04EF-9A520736FC23">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A9EA479E-6074-C6E8-7240-19F06800CC77</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FARM_GENERO" id="5828A945-402C-2037-983F-4D48EECAEFFB">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FARM_APELLIDOS" id="59FFB2E1-5CAE-45E7-9C20-D7B848F7645B">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FARM_NOMBRES" id="92065507-20EB-FECA-6602-A69A70238334">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FARM_DNI" id="9D49589C-6380-8D3C-6F67-9791CCD3C965">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FARM_IDFARMACEUTICO" id="B4005354-01F7-4B33-678E-9DEEF9EB1F65">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FARM_EDAD" id="D262552F-5A14-9A44-7CB1-EA19EB4FC156">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIO_US_IDUSUARIO" id="D31ABC0A-64BF-3502-B340-73637B342793">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FARMACEUTICO_PK" id="91D6C850-98B6-E799-2406-B9C26A1C154F">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FARMACEUTICO__IDX" id="E44C8D14-6859-7DEE-DFF0-A790458371F5">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FARMACEUTICO_USUARIO_FK" id="10E5D72A-FAE7-7E51-8B01-CE0269235D4D">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FARMACEUTICO_PK" id="7E5C485E-591E-FDC2-7B8A-F2D315611C9F">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+<existingIndex>91D6C850-98B6-E799-2406-B9C26A1C154F</existingIndex>
+<indexSegment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

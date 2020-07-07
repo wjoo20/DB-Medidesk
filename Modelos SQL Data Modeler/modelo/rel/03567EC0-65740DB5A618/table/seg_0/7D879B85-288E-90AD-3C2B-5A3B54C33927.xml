@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D879B85-288E-90AD-3C2B-5A3B54C33927" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="CITA">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>CITA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CITA_IDCITA" id="5A5923A3-4EBF-510D-9A2B-0409E903C9B6">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>CITA</sourceObjSchema>
+<sourceObjName>CITA_IDCITA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITA_TIPO" id="CA68E182-438E-D3A7-6B8D-AF7EF72F6676">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>CITA</sourceObjSchema>
+<sourceObjName>CITA_TIPO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITA_ESTADO" id="DC9E74B7-C883-1D42-3447-72BE137F86DB">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>CITA</sourceObjSchema>
+<sourceObjName>CITA_ESTADO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITA_FECHA" id="0049A1CE-B2ED-2161-7025-498B021ACA59">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>CITA</sourceObjSchema>
+<sourceObjName>CITA_FECHA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICO_MED_IDMEDICO" id="FF3F23C2-38EB-38BE-DAAD-CAD339B102E6">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>CITA</sourceObjSchema>
+<sourceObjName>MEDICO_MED_IDMEDICO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7929A78-BC46-83F4-116A-180307818E35" referredColumn="DD16F28E-233E-01E3-FB93-7EA3CA219CCA"/>
+</associations>
+</Column>
+<Column name="TRIAJE_TRI_IDTRIAJE" id="35F5CB13-FC83-482F-538F-226CEFE89C6D">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>CITA</sourceObjSchema>
+<sourceObjName>TRIAJE_TRI_IDTRIAJE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A246B79F-987C-C7B3-4B24-BB8599C83305" referredColumn="61E88EA9-1391-C043-C12B-B5107F17809E"/>
+</associations>
+</Column>
+<Column name="PACIENTE_PAC_DNI" id="EEF34F11-8A10-EEE8-273B-5E20C0E3AF32">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>CITA</sourceObjSchema>
+<sourceObjName>PACIENTE_PAC_DNI</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CDA7EC1-3F36-7CDB-57F9-8105D6239ED3" referredColumn="335D20A9-186D-E3F5-6036-0961CFB4712C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E76D998-E1AB-41D2-1CB8-275D5B58EAAD" name="CITA_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>CITA_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A5923A3-4EBF-510D-9A2B-0409E903C9B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8B523B7-98EA-5204-6420-FBE701E2D760" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="CITA_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>CITA_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A5923A3-4EBF-510D-9A2B-0409E903C9B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21C70854-8AF8-6930-345E-375731853E37" name="CITA_MEDICO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF3F23C2-38EB-38BE-DAAD-CAD339B102E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3E144C8-AA9B-2E96-30D4-B44216BDF571" name="CITA_PACIENTE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEF34F11-8A10-EEE8-273B-5E20C0E3AF32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C551B7C6-6A1A-0A52-7FFF-DA1B0F7FB13D" name="CITA_TRIAJE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35F5CB13-FC83-482F-538F-226CEFE89C6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

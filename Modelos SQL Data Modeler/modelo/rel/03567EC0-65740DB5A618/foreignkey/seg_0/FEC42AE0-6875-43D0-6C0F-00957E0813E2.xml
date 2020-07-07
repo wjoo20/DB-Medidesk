@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FEC42AE0-6875-43D0-6C0F-00957E0813E2" containerWithKeyObject="DDC8D7BD-1C07-424C-B724-44FF80ED347B" localFKIndex="73A077FC-E0EA-A238-3A80-CC6E9D6807F5" name="TRIAJE_ENFERMERA_FK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>TRIAJE_ENFERMERA_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>PROYECTO.ENFERMERA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B6341F0-FA7E-E637-1847-AB32F1BE3DF4</referredTableID>
+<keyObject>62CB1BF9-8348-5DCC-9CF5-12B7D511FAB4</keyObject>
+<referredKeyID>62CB1BF9-8348-5DCC-9CF5-12B7D511FAB4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ENF_IDENFERMERA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

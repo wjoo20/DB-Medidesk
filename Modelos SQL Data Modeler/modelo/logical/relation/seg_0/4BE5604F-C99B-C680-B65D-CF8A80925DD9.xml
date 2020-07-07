@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MEDICO_ESPECIALIDAD_FK" directorySegmentName="seg_0" id="4BE5604F-C99B-C680-B65D-CF8A80925DD9">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>DEA36FB4-0506-A9C2-7354-5BF91B8714C2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>324157CA-2D9F-D2D7-3991-174F4401413E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D346FDC-0ACB-8048-7DF9-34CC90082D1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>44667CB5-B7EB-61FB-A56E-4C93D497470B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9CFD5D52-1A24-9938-633F-EC3F6D4A490B" containerWithKeyObject="A3CA734A-CCFE-AE8C-EF64-52DEE8BE9126" localFKIndex="4AC5EADF-CAD4-33F1-6A4A-73D084BC6C57" name="TRANSACCION_RECETA_RECETA_FK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>TRANSACCION_RECETA_RECETA_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>PROYECTO.RECETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>538CD823-AD0B-F4C3-4FFA-8902411E517F</referredTableID>
+<keyObject>3AE3F86A-9DCC-35AB-FF60-AA5020A296DE</keyObject>
+<referredKeyID>3AE3F86A-9DCC-35AB-FF60-AA5020A296DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>REC_IDRECETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

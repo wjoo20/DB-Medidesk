@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78AD2637-E0D6-CBED-30BB-0B4ECB78E113" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="HISTORIA">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>HISTORIA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HIST_IDHISTORIA" id="2D4BD317-BA4C-3DBF-6350-38221466FE1E">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>HISTORIA</sourceObjSchema>
+<sourceObjName>HIST_IDHISTORIA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIST_FECHAAPERTURA" id="A2AB1E73-BA17-D1E1-906A-3C56FB3CC01C">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>HISTORIA</sourceObjSchema>
+<sourceObjName>HIST_FECHAAPERTURA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACIENTE_PAC_DNI" id="F5E8E1FC-A165-4D66-1235-C211D4CED5A9">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>HISTORIA</sourceObjSchema>
+<sourceObjName>PACIENTE_PAC_DNI</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21CE9C9A-BCEC-650F-4D9A-43CEC577BAFF" referredColumn="335D20A9-186D-E3F5-6036-0961CFB4712C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="415A316C-CBFC-B70B-304C-211EC346B082" name="HISTORIA_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>HISTORIA_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D4BD317-BA4C-3DBF-6350-38221466FE1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90AC15AB-ABED-973C-7A3E-25C4FBF017AE" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="HISTORIA__IDX">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>HISTORIA__IDX</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E8E1FC-A165-4D66-1235-C211D4CED5A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCC30D88-C0B0-2B42-8C3B-4899FDBB6CBE" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="HISTORIA_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>HISTORIA_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D4BD317-BA4C-3DBF-6350-38221466FE1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C6164CD-280B-0392-514B-1D4235FA52E7" name="HISTORIA_PACIENTE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E8E1FC-A165-4D66-1235-C211D4CED5A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

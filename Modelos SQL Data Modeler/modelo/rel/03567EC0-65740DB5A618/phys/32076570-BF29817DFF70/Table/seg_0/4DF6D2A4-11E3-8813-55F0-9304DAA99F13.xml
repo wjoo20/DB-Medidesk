@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USUARIO" directorySegmentName="seg_0" id="4DF6D2A4-11E3-8813-55F0-9304DAA99F13">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A9EA479E-6074-C6E8-7240-19F06800CC77</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="US_CLAVE" id="449010D6-133F-3983-F4D1-C6D060DE6702">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="US_CORREO" id="7B3ED4CF-D1CA-A2C7-F454-E37FB942E02B">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="US_TIPO" id="999D24A2-40E9-D5F2-D336-4ECA57D95445">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="US_IDUSUARIO" id="F42E49B4-EE66-D417-F8DC-A6B4D098D7FC">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="USUARIO_PK" id="29C74515-5FA6-E624-A601-859B0D6F3D83">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USUARIO_PK" id="9942F493-85F8-2A0F-0582-3B43A6BCD729">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+<existingIndex>29C74515-5FA6-E624-A601-859B0D6F3D83</existingIndex>
+<indexSegment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

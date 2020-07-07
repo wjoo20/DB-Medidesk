@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECETA_CITA_FK" directorySegmentName="seg_0" id="CC4745E0-EB05-30E7-B00E-2460CBEBA1A3">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>9B9AC107-95A0-C714-DF77-416803204550</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>AABB0672-CFBD-E897-2F45-13C17932B622</sourcePk>
+<dominantRole>5C90E56A-89D2-6EC8-ABBB-51CC383B1ADD</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C90E56A-89D2-6EC8-ABBB-51CC383B1ADD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7522A17D-68A9-2A1D-0EC9-2C9CA5A7113B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

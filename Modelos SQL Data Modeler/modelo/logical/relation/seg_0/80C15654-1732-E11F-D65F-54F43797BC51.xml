@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HISTORIA_PATOLOGIA_HISTORIA_FK" directorySegmentName="seg_0" id="80C15654-1732-E11F-D65F-54F43797BC51">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>50D865C3-3AAB-215C-E1C1-A625D468ACBA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>6C1ED723-40B6-ABEC-EDAB-6A6D60FFB951</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F5DC4F33-F2CB-A353-5DF8-A01FED4137CB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE4DE265-2D95-78E6-8602-EB0FFD5DEF8E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HIST_PATO_PATO_FK" directorySegmentName="seg_0" id="C457ECC2-AB8E-6BBA-D075-E4DCAB78FA01">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>DAF63AA2-8A8C-0D88-BD6B-0C3F4D2D93F8</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>33083ACB-5161-DBD8-0ABF-10F61A519510</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7A199E00-CA7F-E971-7093-3BDC96F73786</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE4DE265-2D95-78E6-8602-EB0FFD5DEF8E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

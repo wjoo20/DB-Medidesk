@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FARMACEUTICO_USUARIO_FK" directorySegmentName="seg_0" id="DD81B346-7A5D-CBB6-1099-C716BDF14A14">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>16D8439E-86CE-2CCD-8546-8EFC910CCDD9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>9AF9B7CF-2A9A-78ED-0F15-2A1829B5951B</sourcePk>
+<dominantRole>CA74C37B-4ABE-EEAD-25E3-B3EA6204DCF3</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA74C37B-4ABE-EEAD-25E3-B3EA6204DCF3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B00E3BD9-31E9-7B1B-4191-D92562E05602</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

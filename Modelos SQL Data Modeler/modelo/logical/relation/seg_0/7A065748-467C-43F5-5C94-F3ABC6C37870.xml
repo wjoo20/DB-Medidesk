@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HISTORIA_PACIENTE_FK" directorySegmentName="seg_0" id="7A065748-467C-43F5-5C94-F3ABC6C37870">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>21CE9C9A-BCEC-650F-4D9A-43CEC577BAFF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>0C158E46-9320-9485-FDDA-46E4F8F31F19</sourcePk>
+<dominantRole>7F3DDEC5-732A-CAC3-6D6B-6F2F4726B08A</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F3DDEC5-732A-CAC3-6D6B-6F2F4726B08A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F5DC4F33-F2CB-A353-5DF8-A01FED4137CB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

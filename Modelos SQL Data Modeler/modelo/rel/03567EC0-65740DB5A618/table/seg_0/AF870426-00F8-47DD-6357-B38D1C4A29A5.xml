@@ -1,0 +1,214 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF870426-00F8-47DD-6357-B38D1C4A29A5" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="MEDICO">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>MEDICO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MED_IDMEDICO" id="DD16F28E-233E-01E3-FB93-7EA3CA219CCA">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICO</sourceObjSchema>
+<sourceObjName>MED_IDMEDICO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MED_DNI" id="A97BDBDB-37C4-EFEE-13B8-D5225B281854">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICO</sourceObjSchema>
+<sourceObjName>MED_DNI</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MED_NOMBRES" id="85BD12A9-FEEB-F0B8-E53A-16600F22F09B">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICO</sourceObjSchema>
+<sourceObjName>MED_NOMBRES</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MED_APELLIDOS" id="79BF7314-2CF8-9C1D-8701-8F6257EDEB4D">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICO</sourceObjSchema>
+<sourceObjName>MED_APELLIDOS</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MED_GENERO" id="A82C6949-9BE0-E48F-3117-86CE87C0C96C">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICO</sourceObjSchema>
+<sourceObjName>MED_GENERO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MED_EDAD" id="5348334D-94AD-1942-F891-B601AC48EF1A">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICO</sourceObjSchema>
+<sourceObjName>MED_EDAD</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MED_CMP" id="C5D09945-33CC-4FB7-E5EC-D3D16B7A7D49">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICO</sourceObjSchema>
+<sourceObjName>MED_CMP</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_US_IDUSUARIO" id="1A02F281-827C-5616-9B92-6C3DE620B7A2">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICO</sourceObjSchema>
+<sourceObjName>USUARIO_US_IDUSUARIO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5468EBEA-B308-A690-DDB7-341A612E1113" referredColumn="F42E49B4-EE66-D417-F8DC-A6B4D098D7FC"/>
+</associations>
+</Column>
+<Column name="ESPE_ESPE_IDESPE" id="E2D8B74B-8B15-56EE-06E7-08583F0F3663">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICO</sourceObjSchema>
+<sourceObjName>ESPE_ESPE_IDESPE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEA36FB4-0506-A9C2-7354-5BF91B8714C2" referredColumn="57BBD54E-B174-B299-7C66-B876B1141943"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE899EA2-0012-F582-5162-005A3C647E39" name="MEDICO_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>MEDICO_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD16F28E-233E-01E3-FB93-7EA3CA219CCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9B5ECC9-4F35-6B67-3100-B3644A250710" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="MEDICO__IDX">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>MEDICO__IDX</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A02F281-827C-5616-9B92-6C3DE620B7A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50B1F0D6-F317-2FF4-3C4C-2511E76E4CDD" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="MEDICO_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>MEDICO_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD16F28E-233E-01E3-FB93-7EA3CA219CCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="568E89BB-21C1-9152-B65D-C27D417D0211" name="MEDICO_ESPECIALIDAD_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2D8B74B-8B15-56EE-06E7-08583F0F3663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A40A0A76-2212-EFBC-8642-80042C0760E7" name="MEDICO_USUARIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A02F281-827C-5616-9B92-6C3DE620B7A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

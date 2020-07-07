@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9ED19AF3-00F9-A42A-2FF6-078E50082A6F" containerWithKeyObject="A3CA734A-CCFE-AE8C-EF64-52DEE8BE9126" localFKIndex="1FF5571C-21B2-EE9E-4C0E-8D5254F79808" name="TR_REC_FARM_FK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>TR_REC_FARM_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>PROYECTO.FARMACEUTICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B8B32A7-B1FA-0760-04EF-9A520736FC23</referredTableID>
+<keyObject>7E5C485E-591E-FDC2-7B8A-F2D315611C9F</keyObject>
+<referredKeyID>7E5C485E-591E-FDC2-7B8A-F2D315611C9F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FARM_IDFARMACEUTICO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

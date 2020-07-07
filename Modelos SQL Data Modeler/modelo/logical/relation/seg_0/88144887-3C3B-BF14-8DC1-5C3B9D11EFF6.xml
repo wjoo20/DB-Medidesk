@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HIST_PAT_CITA_FK" directorySegmentName="seg_0" id="88144887-3C3B-BF14-8DC1-5C3B9D11EFF6">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>3E2E7756-5146-F2E4-44DE-FE27A05D5B0F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>AABB0672-CFBD-E897-2F45-13C17932B622</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C90E56A-89D2-6EC8-ABBB-51CC383B1ADD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE4DE265-2D95-78E6-8602-EB0FFD5DEF8E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

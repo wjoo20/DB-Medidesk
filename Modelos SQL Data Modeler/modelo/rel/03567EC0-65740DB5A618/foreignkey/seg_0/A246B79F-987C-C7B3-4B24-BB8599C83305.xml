@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A246B79F-987C-C7B3-4B24-BB8599C83305" containerWithKeyObject="7D879B85-288E-90AD-3C2B-5A3B54C33927" localFKIndex="C551B7C6-6A1A-0A52-7FFF-DA1B0F7FB13D" name="CITA_TRIAJE_FK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>CITA_TRIAJE_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>PROYECTO.TRIAJE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DDC8D7BD-1C07-424C-B724-44FF80ED347B</referredTableID>
+<keyObject>4D3DCB9F-BFB3-0DE0-E34D-FE3E482093CA</keyObject>
+<referredKeyID>4D3DCB9F-BFB3-0DE0-E34D-FE3E482093CA</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TRI_IDTRIAJE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ENFERMERA_USUARIO_FK" directorySegmentName="seg_0" id="B51829A4-4A01-68C8-C43A-21F4B3D29CA9">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>252A4212-B75A-9664-F5C3-9934F1471E54</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>9AF9B7CF-2A9A-78ED-0F15-2A1829B5951B</sourcePk>
+<dominantRole>CA74C37B-4ABE-EEAD-25E3-B3EA6204DCF3</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA74C37B-4ABE-EEAD-25E3-B3EA6204DCF3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D0B916D5-BD10-19C7-8506-62A0EC454893</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

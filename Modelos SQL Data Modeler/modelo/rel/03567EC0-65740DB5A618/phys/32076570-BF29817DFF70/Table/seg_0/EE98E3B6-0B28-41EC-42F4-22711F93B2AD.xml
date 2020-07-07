@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PACIENTE" directorySegmentName="seg_0" id="EE98E3B6-0B28-41EC-42F4-22711F93B2AD">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A9EA479E-6074-C6E8-7240-19F06800CC77</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PAC_PRESION" id="02304EE3-1A39-F367-ACD0-ED3D82ED987A">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_EDAD" id="0CC680E3-BA86-FC05-8D62-643442A2D32D">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_TEMPERATURA" id="184FB0BD-3E99-D25D-5F2E-2362AF50B592">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_DNI" id="335D20A9-186D-E3F5-6036-0961CFB4712C">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_NOMBRES" id="4B56EDB6-19FD-D902-6C5A-0390841BF11A">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_CORREO" id="611C5815-9842-B0C4-AF8D-B81C13C652CB">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_TALLA" id="7610283C-29E1-963D-F7FF-9C707E1EAA01">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_PESO" id="984C0C53-FF5C-4078-69B4-F54F6F558947">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADM_ADM_IDADM" id="9F6E5C36-E825-B031-40FE-C8200C92428A">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_APELLIDOS" id="A13A3A76-1D06-8136-52FF-1888E9F38DAB">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_GENERO" id="AB177518-9F13-2742-8694-BDE7830E0A01">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_DIRECCION" id="DF20A4A0-9A82-38B9-5C34-0B680E5A6F2F">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_TELEFONO" id="DFA7E34C-6C61-3602-5BD8-2056FE89F3DE">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAC_TRIAJE" id="F74FD4E6-7BED-A64C-416E-55E020DDB4E4">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PACIENTE_PK" id="CD81D967-F4B3-C7FB-3DB6-D2D63FE3B27F">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PACIENTE_ADMINISTRADOR_FK" id="56F4624E-4022-5194-A945-1C28FEC499C0">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PACIENTE_PK" id="9B72C52C-26D3-FBB4-11F8-F64E5CEFF7DD">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+<existingIndex>CD81D967-F4B3-C7FB-3DB6-D2D63FE3B27F</existingIndex>
+<indexSegment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

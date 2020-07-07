@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3CA734A-CCFE-AE8C-EF64-52DEE8BE9126" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="TRANSACCION_RECETA">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>TRANSACCION_RECETA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TR_IDTRANSACCION" id="CA51E567-86B4-B851-6D18-32AFCFB3A8C9">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>TRANSACCION_RECETA</sourceObjSchema>
+<sourceObjName>TR_IDTRANSACCION</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECETA_REC_IDRECETA" id="D0B18B63-9059-082D-30B5-5EAAA3D11D30">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>TRANSACCION_RECETA</sourceObjSchema>
+<sourceObjName>RECETA_REC_IDRECETA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CFD5D52-1A24-9938-633F-EC3F6D4A490B" referredColumn="6EEE39F0-A598-EBE0-A31E-A8A70DD3C20E"/>
+</associations>
+</Column>
+<Column name="FARM_FARM_IDFARM" id="9812563B-E29C-F2A7-7087-12DC41E8B411">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>TRANSACCION_RECETA</sourceObjSchema>
+<sourceObjName>FARM_FARM_IDFARM</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ED19AF3-00F9-A42A-2FF6-078E50082A6F" referredColumn="B4005354-01F7-4B33-678E-9DEEF9EB1F65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2FB9B94-AC3E-BD9B-40A1-D2EC421C6102" name="TRANSACCION_RECETA_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>TRANSACCION_RECETA_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA51E567-86B4-B851-6D18-32AFCFB3A8C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="246E87B3-678D-705E-31F3-662D39CD596F" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="TRANSACCION_RECETA__IDX">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>TRANSACCION_RECETA__IDX</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0B18B63-9059-082D-30B5-5EAAA3D11D30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="856F2715-DA46-3701-9E15-370C17B6DBAE" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="TRANSACCION_RECETA_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>TRANSACCION_RECETA_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA51E567-86B4-B851-6D18-32AFCFB3A8C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AC5EADF-CAD4-33F1-6A4A-73D084BC6C57" name="TRANSACCION_RECETA_RECETA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0B18B63-9059-082D-30B5-5EAAA3D11D30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FF5571C-21B2-EE9E-4C0E-8D5254F79808" name="TR_REC_FARM_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9812563B-E29C-F2A7-7087-12DC41E8B411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

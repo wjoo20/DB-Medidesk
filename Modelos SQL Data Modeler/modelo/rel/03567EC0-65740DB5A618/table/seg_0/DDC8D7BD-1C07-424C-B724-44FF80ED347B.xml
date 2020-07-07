@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDC8D7BD-1C07-424C-B724-44FF80ED347B" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="TRIAJE">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>TRIAJE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRI_IDTRIAJE" id="61E88EA9-1391-C043-C12B-B5107F17809E">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>TRIAJE</sourceObjSchema>
+<sourceObjName>TRI_IDTRIAJE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENFERMERA_ENF_IDENFERMERA" id="B25464B3-D5B4-930B-7B89-E7C39142ED82">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>TRIAJE</sourceObjSchema>
+<sourceObjName>ENFERMERA_ENF_IDENFERMERA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEC42AE0-6875-43D0-6C0F-00957E0813E2" referredColumn="733653B4-FFCD-9F3C-B55A-48ACB42E2F48"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D3DCB9F-BFB3-0DE0-E34D-FE3E482093CA" name="TRIAJE_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>TRIAJE_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61E88EA9-1391-C043-C12B-B5107F17809E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6FBC636-720E-7211-0E0E-E3350A621A91" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="TRIAJE_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>TRIAJE_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61E88EA9-1391-C043-C12B-B5107F17809E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73A077FC-E0EA-A238-3A80-CC6E9D6807F5" name="TRIAJE_ENFERMERA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B25464B3-D5B4-930B-7B89-E7C39142ED82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

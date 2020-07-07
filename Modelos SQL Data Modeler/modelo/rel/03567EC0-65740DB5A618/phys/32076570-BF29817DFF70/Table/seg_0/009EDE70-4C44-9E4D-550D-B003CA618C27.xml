@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PATOLOGIA" directorySegmentName="seg_0" id="009EDE70-4C44-9E4D-550D-B003CA618C27">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A9EA479E-6074-C6E8-7240-19F06800CC77</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PAT_IDPATOLOGIA" id="46A54E5E-2CC1-5D97-C59E-CBAF4E4E2C3E">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAT_DESCRIPCION" id="B000DBB3-21BE-FEEC-3FDD-CEF8CB05DD2C">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PATOLOGIA_PK" id="D2BCD4C6-3049-D2FD-38C1-B0A24C5E3D7B">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PATOLOGIA_PK" id="A844F915-CF48-4E68-8ED8-2205C4215042">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+<existingIndex>D2BCD4C6-3049-D2FD-38C1-B0A24C5E3D7B</existingIndex>
+<indexSegment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

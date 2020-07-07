@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D3BF16C-73B3-F63C-D5DE-A4696F0A8B3A" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="MEDICAMENTO">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>MEDICAMENTO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ME_IDMEDICAMENTO" id="AD9EC81B-E7DE-5871-8190-6D8F3A208C2C">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICAMENTO</sourceObjSchema>
+<sourceObjName>ME_IDMEDICAMENTO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ME_NOMBRE" id="D7B1E37D-67D9-5EFB-FB05-2974F0110E70">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICAMENTO</sourceObjSchema>
+<sourceObjName>ME_NOMBRE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ME_CANTIDAD" id="B9C84415-AF66-FF5F-C0E3-2F7987AC7082">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>MEDICAMENTO</sourceObjSchema>
+<sourceObjName>ME_CANTIDAD</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC2AD1B8-DBA0-8247-1833-29B1312E0445" name="MEDICAMENTO_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>MEDICAMENTO_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD9EC81B-E7DE-5871-8190-6D8F3A208C2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42DE6C06-CC98-DC0D-7014-7A08A5F10F6E" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="MEDICAMENTO_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>MEDICAMENTO_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD9EC81B-E7DE-5871-8190-6D8F3A208C2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

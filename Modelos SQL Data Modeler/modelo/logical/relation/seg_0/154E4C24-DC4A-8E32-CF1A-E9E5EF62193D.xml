@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ADMINISTRADOR_USUARIO_FK" directorySegmentName="seg_0" id="154E4C24-DC4A-8E32-CF1A-E9E5EF62193D">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>9428869A-D7E6-A1EC-DAFA-25412166C49E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>9AF9B7CF-2A9A-78ED-0F15-2A1829B5951B</sourcePk>
+<dominantRole>CA74C37B-4ABE-EEAD-25E3-B3EA6204DCF3</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA74C37B-4ABE-EEAD-25E3-B3EA6204DCF3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A92676F8-AA3D-274C-257D-CE8CE4EC1D73</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

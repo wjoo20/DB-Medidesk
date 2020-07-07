@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DEA36FB4-0506-A9C2-7354-5BF91B8714C2" containerWithKeyObject="AF870426-00F8-47DD-6357-B38D1C4A29A5" localFKIndex="568E89BB-21C1-9152-B65D-C27D417D0211" name="MEDICO_ESPECIALIDAD_FK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>MEDICO_ESPECIALIDAD_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>PROYECTO.ESPECIALIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6DF4961C-686B-88CD-803D-3BF38A9FD937</referredTableID>
+<keyObject>249CE02D-4BB5-ADE4-F785-C40599275B61</keyObject>
+<referredKeyID>249CE02D-4BB5-ADE4-F785-C40599275B61</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ESPE_IDESPECIALIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

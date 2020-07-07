@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E2E7756-5146-F2E4-44DE-FE27A05D5B0F" containerWithKeyObject="B3C4649E-1837-C5FA-8511-C2FD57CAFBAA" localFKIndex="E1F036D4-D3A2-5AD8-29A2-85BA829AB80B" name="HIST_PAT_CITA_FK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>HIST_PAT_CITA_FK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>PROYECTO.CITA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7D879B85-288E-90AD-3C2B-5A3B54C33927</referredTableID>
+<keyObject>9E76D998-E1AB-41D2-1CB8-275D5B58EAAD</keyObject>
+<referredKeyID>9E76D998-E1AB-41D2-1CB8-275D5B58EAAD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CITA_IDCITA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

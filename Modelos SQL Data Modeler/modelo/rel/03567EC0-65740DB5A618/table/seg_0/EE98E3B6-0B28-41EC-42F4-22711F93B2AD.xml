@@ -1,0 +1,264 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE98E3B6-0B28-41EC-42F4-22711F93B2AD" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="PACIENTE">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>PACIENTE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAC_DNI" id="335D20A9-186D-E3F5-6036-0961CFB4712C">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_DNI</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_NOMBRES" id="4B56EDB6-19FD-D902-6C5A-0390841BF11A">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_NOMBRES</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_APELLIDOS" id="A13A3A76-1D06-8136-52FF-1888E9F38DAB">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_APELLIDOS</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_CORREO" id="611C5815-9842-B0C4-AF8D-B81C13C652CB">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_CORREO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_TELEFONO" id="DFA7E34C-6C61-3602-5BD8-2056FE89F3DE">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_TELEFONO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_DIRECCION" id="DF20A4A0-9A82-38B9-5C34-0B680E5A6F2F">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_DIRECCION</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_GENERO" id="AB177518-9F13-2742-8694-BDE7830E0A01">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_GENERO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_EDAD" id="0CC680E3-BA86-FC05-8D62-643442A2D32D">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_EDAD</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_TALLA" id="7610283C-29E1-963D-F7FF-9C707E1EAA01">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_TALLA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_PESO" id="984C0C53-FF5C-4078-69B4-F54F6F558947">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_PESO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_TEMPERATURA" id="184FB0BD-3E99-D25D-5F2E-2362AF50B592">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_TEMPERATURA</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_PRESION" id="02304EE3-1A39-F367-ACD0-ED3D82ED987A">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_PRESION</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAC_TRIAJE" id="F74FD4E6-7BED-A64C-416E-55E020DDB4E4">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>PAC_TRIAJE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADM_ADM_IDADM" id="9F6E5C36-E825-B031-40FE-C8200C92428A">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PACIENTE</sourceObjSchema>
+<sourceObjName>ADM_ADM_IDADM</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56702C60-01F4-2090-C045-490F00DBC157" referredColumn="E07DBD59-CBF4-776A-6462-6C6D54972637"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B72C52C-26D3-FBB4-11F8-F64E5CEFF7DD" name="PACIENTE_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>PACIENTE_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="335D20A9-186D-E3F5-6036-0961CFB4712C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD81D967-F4B3-C7FB-3DB6-D2D63FE3B27F" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="PACIENTE_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>PACIENTE_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="335D20A9-186D-E3F5-6036-0961CFB4712C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56F4624E-4022-5194-A945-1C28FEC499C0" name="PACIENTE_ADMINISTRADOR_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F6E5C36-E825-B031-40FE-C8200C92428A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DF4961C-686B-88CD-803D-3BF38A9FD937" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="ESPECIALIDAD">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>ESPECIALIDAD</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESPE_IDESPECIALIDAD" id="57BBD54E-B174-B299-7C66-B876B1141943">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>ESPECIALIDAD</sourceObjSchema>
+<sourceObjName>ESPE_IDESPECIALIDAD</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESPE_NOMBRE" id="F6C6C7C9-69D7-44F2-866D-FF0E7AEAD07B">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>ESPECIALIDAD</sourceObjSchema>
+<sourceObjName>ESPE_NOMBRE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="249CE02D-4BB5-ADE4-F785-C40599275B61" name="ESPECIALIDAD_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>ESPECIALIDAD_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57BBD54E-B174-B299-7C66-B876B1141943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20BCD65F-4CF4-4CDB-B390-5B67C8722BE4" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="ESPECIALIDAD_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>ESPECIALIDAD_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57BBD54E-B174-B299-7C66-B876B1141943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

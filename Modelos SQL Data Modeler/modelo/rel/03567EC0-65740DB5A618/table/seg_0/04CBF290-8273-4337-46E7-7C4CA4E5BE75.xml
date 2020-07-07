@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04CBF290-8273-4337-46E7-7C4CA4E5BE75" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="REGISTRO">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>REGISTRO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REG_DNI" id="22678203-360C-311F-D2F6-EDE08D5D3ED5">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>REG_DNI</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_NOMBRES" id="A6741A1D-D52A-07E8-15BE-2DFBAE8BB35E">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>REG_NOMBRES</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_APELLIDOS" id="305F59C0-CB4A-ECF8-E8C4-652080D6CFE8">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>REG_APELLIDOS</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_GENERO" id="9E7F1DCD-02FF-B1EE-F117-0E14ABB887F1">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>REG_GENERO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_EDAD" id="B7D3E085-8E39-71A5-D294-EFAD646882B9">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>REG_EDAD</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_US_IDUSUARIO" id="C0FB9D00-24DE-C1E7-F321-0295DFC1D594">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>USUARIO_US_IDUSUARIO</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10AB9244-1706-7E15-5EB8-3AA4DB4D4EB3" referredColumn="F42E49B4-EE66-D417-F8DC-A6B4D098D7FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FF66364-F483-246F-70AF-86FC4A3F1FB7" name="REGISTRO_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>REGISTRO_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22678203-360C-311F-D2F6-EDE08D5D3ED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCB7B222-657F-2C97-B43E-6347D85B087E" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="REGISTRO__IDX">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>REGISTRO__IDX</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0FB9D00-24DE-C1E7-F321-0295DFC1D594"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8501A33-44FF-FAED-77D3-672A065A8404" schemaObject="70B7F048-88E7-D2A2-391F-38CCCAF5718C" name="REGISTRO_PK">
+<sourceConnName>PROYECTO</sourceConnName>
+<sourceObjSchema>PROYECTO</sourceObjSchema>
+<sourceObjName>REGISTRO_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22678203-360C-311F-D2F6-EDE08D5D3ED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3DB5649-5813-C84B-54A0-43E354168357" name="REGISTRO_USUARIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0FB9D00-24DE-C1E7-F321-0295DFC1D594"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

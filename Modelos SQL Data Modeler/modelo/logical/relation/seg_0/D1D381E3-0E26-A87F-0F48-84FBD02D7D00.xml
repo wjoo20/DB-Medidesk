@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRANSACCION_RECETA_RECETA_FK" directorySegmentName="seg_0" id="D1D381E3-0E26-A87F-0F48-84FBD02D7D00">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:33:00 UTC</createdTime>
+<generatorID>9CFD5D52-1A24-9938-633F-EC3F6D4A490B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="03567EC0-47D8-26B0-50A3-65740DB5A618" value="true"/>
+</engineerTo>
+<sourcePk>E5A0668E-F5FB-E131-EDA9-D1C15FE7A266</sourcePk>
+<dominantRole>7522A17D-68A9-2A1D-0EC9-2C9CA5A7113B</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7522A17D-68A9-2A1D-0EC9-2C9CA5A7113B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FD711B97-A797-806F-05F4-DB45352BE4A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

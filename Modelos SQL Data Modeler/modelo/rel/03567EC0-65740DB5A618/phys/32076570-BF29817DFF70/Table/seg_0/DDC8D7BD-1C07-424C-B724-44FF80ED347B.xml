@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TRIAJE" directorySegmentName="seg_0" id="DDC8D7BD-1C07-424C-B724-44FF80ED347B">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A9EA479E-6074-C6E8-7240-19F06800CC77</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TRI_IDTRIAJE" id="61E88EA9-1391-C043-C12B-B5107F17809E">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENFERMERA_ENF_IDENFERMERA" id="B25464B3-D5B4-930B-7B89-E7C39142ED82">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TRIAJE_PK" id="E6FBC636-720E-7211-0E0E-E3350A621A91">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>70B7F048-88E7-D2A2-391F-38CCCAF5718C</schemaObject>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TRIAJE_ENFERMERA_FK" id="73A077FC-E0EA-A238-3A80-CC6E9D6807F5">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRIAJE_PK" id="4D3DCB9F-BFB3-0DE0-E34D-FE3E482093CA">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-07 05:19:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<segment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</segment>
+<tableSpace>451BB8D0-A0E1-896F-CD2C-07162C3DFC4C</tableSpace>
+<existingIndex>E6FBC636-720E-7211-0E0E-E3350A621A91</existingIndex>
+<indexSegment>E79993CC-7A03-69A7-5CB5-B19B5AB5330B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
